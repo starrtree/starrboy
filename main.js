@@ -1,9 +1,9 @@
-import * as THREE from "https://esm.sh/three@0.164.1";
-import { OrbitControls } from "https://esm.sh/three@0.164.1/examples/jsm/controls/OrbitControls.js";
-import { EffectComposer } from "https://esm.sh/three@0.164.1/examples/jsm/postprocessing/EffectComposer.js";
-import { RenderPass } from "https://esm.sh/three@0.164.1/examples/jsm/postprocessing/RenderPass.js";
-import { UnrealBloomPass } from "https://esm.sh/three@0.164.1/examples/jsm/postprocessing/UnrealBloomPass.js";
-import { MarchingCubes } from "https://esm.sh/three@0.164.1/examples/jsm/objects/MarchingCubes.js";
+﻿import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
+import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
+import { MarchingCubes } from "three/addons/objects/MarchingCubes.js";
 
 const app = document.querySelector("#app");
 
@@ -792,4 +792,3 @@ function onWindowResize() {
 function randomBetween(min, max) {
   return THREE.MathUtils.randFloat(min, max);
 }
-
