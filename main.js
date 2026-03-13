@@ -1,9 +1,9 @@
-﻿import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js";
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/controls/OrbitControls.js";
-import { EffectComposer } from "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/postprocessing/EffectComposer.js";
-import { RenderPass } from "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/postprocessing/RenderPass.js";
-import { UnrealBloomPass } from "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/postprocessing/UnrealBloomPass.js";
-import { MarchingCubes } from "https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/objects/MarchingCubes.js";
+import * as THREE from "https://esm.sh/three@0.164.1";
+import { OrbitControls } from "https://esm.sh/three@0.164.1/examples/jsm/controls/OrbitControls.js";
+import { EffectComposer } from "https://esm.sh/three@0.164.1/examples/jsm/postprocessing/EffectComposer.js";
+import { RenderPass } from "https://esm.sh/three@0.164.1/examples/jsm/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "https://esm.sh/three@0.164.1/examples/jsm/postprocessing/UnrealBloomPass.js";
+import { MarchingCubes } from "https://esm.sh/three@0.164.1/examples/jsm/objects/MarchingCubes.js";
 
 const app = document.querySelector("#app");
 
@@ -792,3 +792,4 @@ function onWindowResize() {
 function randomBetween(min, max) {
   return THREE.MathUtils.randFloat(min, max);
 }
+
